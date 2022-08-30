@@ -18,23 +18,14 @@ public class JpaMain {
             member.setAge(10);
             em.persist(member);
 
-            TypedQuery<Member> query = em.createQuery("select age from Member ", Member.class);
+            em.flush();
+            em.clear();
 
-            Member result = em.createQuery("select m from Member m where m.username = :username", Member.class)
-                    .setParameter("username", "member1")
-                    .getSingleResult();
+            List<Member> result = em.createQuery("select o.address from Order o", Member.class)
+                            .getResultList();
 
-            System.out.println("result = " + result.getUsername());
-
-            //여러개일때
-            List<Member> resultList = query.getResultList();
-            for (Member member1 : resultList) {
-                System.out.println("member1 = " + member1);
-            }
-
-            //결과가 정확히 하나, 단일객체 반환
-            Member result1 = query.getSingleResult();
-            System.out.println("result = " + result1);
+            Member findMember = result.get(0);
+            findMember.setAge(20);
 
             tx.commit();
         } catch (Exception e) {

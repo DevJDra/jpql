@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2564a22b-335c-4cea-9702-0251fe2dcf27" name="Changes" comment="2022-09-05 case식1 commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/JpaMain.java" afterDir="false" />
+    <list default="true" id="2564a22b-335c-4cea-9702-0251fe2dcf27" name="Changes" comment="2022-09-05 case식 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dialect/MyH2Dialect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661859883372</updated>
-      <workItem from="1661859884758" duration="8980000" />
+      <workItem from="1661859884758" duration="9612000" />
     </task>
     <task id="LOCAL-00001" summary="기본문법과 쿼리 API">
       <created>1661862990698</created>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662380024802</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2022-09-05 case식 commit">
+      <created>1662380192549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662380192549</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +166,7 @@
     <MESSAGE value="2022-09-05 조인 commit" />
     <MESSAGE value="2022-09-05 조건식 commit" />
     <MESSAGE value="2022-09-05 case식1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-09-05 case식1 commit" />
+    <MESSAGE value="2022-09-05 case식 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-05 case식 commit" />
   </component>
 </project>

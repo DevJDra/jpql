@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2564a22b-335c-4cea-9702-0251fe2dcf27" name="Changes" comment="2022-09-05 조인 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/MemberType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2564a22b-335c-4cea-9702-0251fe2dcf27" name="Changes" comment="2022-09-05 조건식 commit">
       <change beforePath="$PROJECT_DIR$/src/main/java/jpql/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661859883372</updated>
-      <workItem from="1661859884758" duration="8177000" />
+      <workItem from="1661859884758" duration="8626000" />
     </task>
     <task id="LOCAL-00001" summary="기본문법과 쿼리 API">
       <created>1661862990698</created>
@@ -125,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662376893249</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2022-09-05 조건식 commit">
+      <created>1662379388926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662379388926</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +150,7 @@
     <MESSAGE value="기본문법과 쿼리 API" />
     <MESSAGE value="2022-08-30 프로젝션 commit" />
     <MESSAGE value="2022-09-05 조인 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-09-05 조인 commit" />
+    <MESSAGE value="2022-09-05 조건식 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-05 조건식 commit" />
   </component>
 </project>

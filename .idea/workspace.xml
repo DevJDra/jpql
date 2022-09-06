@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2564a22b-335c-4cea-9702-0251fe2dcf27" name="Changes" comment="2022-09-05 case식 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dialect/MyH2Dialect.java" afterDir="false" />
+    <list default="true" id="2564a22b-335c-4cea-9702-0251fe2dcf27" name="Changes" comment="2022-09-05 jpql 함수 commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/JpaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ahn/jpashop",
+    "last_opened_file_path": "/home/ahn/Workspace/jpql",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -99,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661859883372</updated>
-      <workItem from="1661859884758" duration="9612000" />
+      <workItem from="1661859884758" duration="11161000" />
+      <workItem from="1662465322301" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="기본문법과 쿼리 API">
       <created>1661862990698</created>
@@ -143,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662380192549</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2022-09-05 jpql 함수 commit">
+      <created>1662381686996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662381686996</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +176,7 @@
     <MESSAGE value="2022-09-05 조건식 commit" />
     <MESSAGE value="2022-09-05 case식1 commit" />
     <MESSAGE value="2022-09-05 case식 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-09-05 case식 commit" />
+    <MESSAGE value="2022-09-05 jpql 함수 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-05 jpql 함수 commit" />
   </component>
 </project>
